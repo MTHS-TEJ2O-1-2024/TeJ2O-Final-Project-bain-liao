@@ -20,7 +20,7 @@ input.onButtonPressed(Button.A, function () {
 })
 
 input.onButtonPressed(Button.B, function () {
-    robotbit.Servo(servoNumber1, 50)
+    robotbit.Servo(servoNumber1, 55)
     basic.clearScreen()
     basic.showString('Launch!')
     basic.clearScreen()
